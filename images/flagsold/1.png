@@ -1,0 +1,10 @@
+<?php
+
+
+foreach (glob("*.png") as $filename) {
+    $file = realpath($filename);
+    $newname = strtoupper($file);
+    rename($file, $newname);
+}
+
+

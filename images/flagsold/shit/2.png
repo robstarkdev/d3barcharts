@@ -1,0 +1,12 @@
+<?php
+
+
+foreach (glob("*.*") as $filename) {
+    $file = realpath($filename);
+    
+    $newname = substr_replace($file, '.png', -4);
+    rename($file, $newname);
+}
+
+
+

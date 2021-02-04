@@ -1,0 +1,59 @@
+
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: silver;
+    display: flex;
+}
+
+body {
+    margin: 0;
+}
+
+
+.container {
+    width: 18vw;
+    height: 12vw;
+    background: gold;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+}
+
+#viz {
+
+}
+
+.btn_simple {
+    width: 80px; height: 30px; display: flex; background-color: #2e6da4;
+    cursor: pointer; border-radius: 3px; border: 1px solid darkblue;
+}
+.btn_simple:hover {
+    background-color: #9acfea;
+}
+
+.piccontainer {
+    width: 18vw;
+    height: 12vw;
+    background: gold;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+}
+
+.f_r_pic {
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
